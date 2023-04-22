@@ -38,7 +38,7 @@ End fixed sidebar
 ------------------------------------------------------------------------>
 
 <nav id="toc" class="fixedsidebar d-none d-lg-block">
-    <h5 class="mt-4 mb-4 pt-1" style="color:#6165E7"><a class="text-dark navbar-brand" href={{url_for('index')}}>
+    <h5 class="mt-4 mb-4 pt-1" style="color:#6165E7"><a class="text-dark navbar-brand" href="./templates/index.html">
         <strong>Data </strong> Visualization</a></h5>
 <!--    <a target="_blank" href="https://www.buymeacoffee.com/sal" class="btn btn-secondary mb-4 btn-sm btn-round">-->
 <!--        <i class="fas fa-coffee mr-1"></i> Buy me a coffee</a>-->
@@ -57,7 +57,7 @@ NAVBAR (remove topnav if you don't want changed nav background on scroll)
 ------------------------------------------------------------------------>
 <nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
 <div class="container">
-	<a class="navbar-brand d-lg-none" href={{url_for('index')}}>
+	<a class="navbar-brand d-lg-none" href="./templates/index.html">
         <i class="fas fa-anchor mr-2"></i>
         <strong>网站名称</strong></a>
 	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +66,7 @@ NAVBAR (remove topnav if you don't want changed nav background on scroll)
 	<div class="navbar-collapse collapse" id="navbarColor02">
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
 			<li class="nav-item">
-			<a class="nav-link" href={{url_for('index')}}>&larr; Back To Home</a>
+			<a class="nav-link" href="./templates/index.html">&larr; Back To Home</a>
 			</li>
 		</ul>
 		<ul class="navbar-nav ml-auto d-flex align-items-center">
@@ -249,15 +249,15 @@ basic template
 <p>点击下方按钮查看其它方向的数据分析报告 </p>
 	<div class="m-3 p-3" style="text-align:center;">
     <button class="btn btn-primary btn-round shadow-lg m-2" type="submit" style="background: #9479FF" >
-		<a href={{url_for('jishu')}} class="text-white">技术方向数据可视化</a></button>
+		<a href="./templates/jishu.html" class="text-white">技术方向数据可视化</a></button>
     <button class="btn btn-primary btn-round shadow-lg m-2" type="submit" style="background: #9479FF" >
-		<a href={{url_for('chanpin')}} class="text-white">产品方向数据可视化</a></button>
+		<a href="./templates/chanpin.html" class="text-white">产品方向数据可视化</a></button>
     <button class="btn btn-primary btn-round shadow-lg m-2" type="submit" style="background: #9479FF" >
-		<a href={{url_for('sheji')}} class="text-white">设计方向数据可视化</a></button>
+		<a href="./templates/sheji.html" class="text-white">设计方向数据可视化</a></button>
 </div>
 <h1 class="mt-2 pt-2">——————————————————————————————————————————————————————————————</h1>
 <p>了解过运营方向的岗位数据可视化分析后，如何进行有方向、有针对性的学习提升是不是十分重要呢，来看看技能提升模块吧，可能可以给你一定的帮助~ </p>
-        <form method="GET" action="/xuexi" style="text-align: center">
+        <form method="GET" action="./templates/xuexi.html" style="text-align: center">
     <button class="btn btn-primary btn-round shadow-lg " type="submit" style="background: #a159d8"> 点击进行技能提升</button>
 </form>
 

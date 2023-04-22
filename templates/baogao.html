@@ -32,7 +32,7 @@ NAVBAR
 <!--style="padding: 0;margin: 0"-->
 <nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
 <div class="container-fluid" style="font-size: 16px;">
-	<a class="navbar-brand pl-5" href={{url_for('index')}} style="color:#6165E7;padding-left：150px">
+	<a class="navbar-brand pl-5" href='./index.html' style="color:#6165E7;padding-left：150px">
 		<i class="fas fa-anchor mr-2"></i>Data Visualization</a>
 	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon" style="color: #8696a7"></span>
@@ -40,18 +40,18 @@ NAVBAR
 	<div class="navbar-collapse collapse" id="navbarColor02" style="">
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
 			<li class="nav-item">
-			<a class="nav-link" href={{url_for('index')}} style="color: #8696a7">首页</a>
+			<a class="nav-link" href='./templates/index.html' style="color: #8696a7">首页</a>
 			</li>
 			<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href={{url_for('docs')}} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #8696a7">
+			<a class="nav-link dropdown-toggle" href='./templates/docs.html' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #8696a7">
 			可视化数据分析 </a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href={{url_for('docs')}} style="color: #8696a7">可视化分析报告</a>
-				<a class="dropdown-item" href={{url_for('ciyun')}} style="color: #8696a7">类别关键词</a>
+                <a class="dropdown-item" href='./templates/docs.html' style="color: #8696a7">可视化分析报告</a>
+				<a class="dropdown-item" href='./templates/ciyuntu.html' style="color: #8696a7">类别关键词</a>
 			</div>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href={{url_for('xuexi')}} style="color: #8696a7">学习提升</a>
+			<a class="nav-link" href='./templates/xuexi.html' style="color: #8696a7">学习提升</a>
 			</li>
 		</ul>
 	</div>

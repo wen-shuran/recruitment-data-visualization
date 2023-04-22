@@ -28,7 +28,7 @@
 
 <nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
 <div class="container-fluid" style="font-size: 17px;">
-	<a class="navbar-brand pl-5" href={{url_for('index')}} style="color:#6165E7;padding-left：150px">
+	<a class="navbar-brand pl-5" href='./templates/index.html' style="color:#6165E7;padding-left：150px">
 		<i class="fas fa-anchor mr-2"></i>Data Visualization</a>
 	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon" style="color: #8696a7"></span>
@@ -36,18 +36,18 @@
 	<div class="navbar-collapse collapse" id="navbarColor02" style="">
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
 			<li class="nav-item">
-			<a class="nav-link" href={{url_for('index')}} style="color: #8696a7">首页</a>
+			<a class="nav-link" href='./templates/index.html' style="color: #8696a7">首页</a>
 			</li>
 			<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #8696a7">
 			数据可视化 </a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href={{url_for('docs')}} style="color: #8696a7">可视化分析报告</a>
-				<a class="dropdown-item" href={{url_for('ciyun')}} style="color: #8696a7">类别关键词</a>
+                <a class="dropdown-item" href='./templates/docs.html' style="color: #8696a7">可视化分析报告</a>
+				<a class="dropdown-item" href='./templates/ciyuntu.html' style="color: #8696a7">类别关键词</a>
 			</div>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href={{url_for('baogao')}} style="color: #8696a7">报告研读</a>
+			<a class="nav-link" href='./templates/baogao.html' style="color: #8696a7">报告研读</a>
 			</li>
 		</ul>
 	</div>
@@ -55,21 +55,6 @@
 </nav>
 <!-- End Navbar -->
 
-<!--<div class="container-fluid position-relative mt-1 mb-2" style="height:480px;background: #e6f3ec;width: 83%">-->
-<!--        <div class="d-lg-flex align-items-center justify-content-between text-center pl-lg-3">-->
-<!--            <div class="col pt-1 pb-1 text-left position-relative">-->
-<!--                <h4 class="display-3" style="font-family: Arial,serif;color: #676662;font-size: 48px;font-weight:bold">互联网行业各类别技能提升</h4>-->
-<!--                <h5 class="mb-2 mt-2" style="font-family:Arial,serif;color: #676662;font-size: 18px">-->
-<!--                    互联网行业7大类别为技术、产品、运营、设计、职能、市场、销售。-->
-<!--                    技能提升模块主要对互联网七大分类所需技能、知识和工具等有针对性地进行整合，可选择合适资源，提高学习效率。-->
-<!--                </h5>-->
-<!--            </div>-->
-<!--&lt;!&ndash;            align-self-bottom&ndash;&gt;-->
-<!--            <div class="col align-items-right text-right position-relative z-index-1 mr-0 pr-0"-->
-<!--                 style="background-size:cover;background-image:url(./static/img/demo/home.jpg);height: 480px">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 <div class="jumbotron jumbotron-lg jumbotron-fluid container text-white tofront position-relative" style="background:#E9E8FF;width: 83%;height: 460px">
 		<div class="row align-items-center justify-content-center text-center">
 			<div class="col-md-10">
